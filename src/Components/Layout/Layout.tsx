@@ -77,8 +77,8 @@ export default function NavBar(props: any) {
 
   React.useEffect(() => {
     unstated.fetchData("books")
-    unstated.setData("characters")
-    unstated.setData("houses")
+    // unstated.fetchData("characters")
+    // unstated.fetchData("houses")
     // eslint-disable-next-line
   }, [])
 

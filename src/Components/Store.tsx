@@ -1,7 +1,7 @@
 // eslint-disable-next-line
 import * as React from 'react';
 import { createContainer } from "unstated-next";
-import { IBook, ICharacter, IHouse, getData } from "./utils/utils";
+import { IBook, ICharacter, IHouse } from "./utils/utils";
 
 export const useStore = () => {
   const [books, setBooks] = React.useState<IBook[] | any>([]);
